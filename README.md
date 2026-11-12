@@ -1,6 +1,6 @@
 # Portfolio Optimisation: Does Markowitz Beat 1/N Out of Sample?
 
-[![CI](https://github.com/OWNER/portfolio-optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/portfolio-optimization/actions/workflows/ci.yml)
+[![CI](https://github.com/fatimazahraakhihil/portfolio-optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/fatimazahraakhihil/portfolio-optimization/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -59,7 +59,7 @@ Methods and references: [docs/methodology.md](docs/methodology.md).
 ## Quick start
 
 ```bash
-git clone https://github.com/OWNER/portfolio-optimization.git
+git clone https://github.com/fatimazahraakhihil/portfolio-optimization.git
 cd portfolio-optimization
 make install     # .venv + package with data and dev extras
 make test        # 17 tests, no network needed
@@ -76,7 +76,7 @@ opt.risk_parity(cov), opt.hrp(cov), opt.min_variance(cov, bounds=(0, 0.5))
 ```
 
 **Using with the risk engine:** the weights from any strategy can be passed to
-the companion [market-risk-var](https://github.com/OWNER/market-risk-var) project
+the companion [market-risk-var](https://github.com/fatimazahraakhihil/market-risk-var) project
 (`run_rolling(R, weights, default_models())`) to back-test VaR/ES on the
 optimised portfolio.
 
